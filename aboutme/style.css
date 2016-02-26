@@ -1,0 +1,14 @@
+
+h1 {
+	color: purple;
+}
+
+li {
+	color: orange;
+}
+
+h4{
+	color: #FF0000;
+	border: 1px solid rgb(10,122,133);
+	/*border: soze type color*/
+}
