@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+	<h1>Hello</h1>
+	<h1>Goodbye</h1>
+	<ul class="ul1">
+		<li id="highlight">LI1</li>
+		<li class="bolded">LI2</li>
+		<li class="bolded">LI3</li>
+	</ul>
+	<ul class="ul2">
+		<li id="highlight">LI1</li>
+		<li class="bolded">LI4</li>
+		<li class="bolded">LI5</li>
+	</ul>
+	<script type="text/javascript">
+		var high = document.getElementById('highlight');
+		console.dir(high);
+		var bold = document.getElementsByClassName('bolded');
+		console.log(bold);
+		var bolded2 = document.querySelector('ul.ul2>li.bolded');
+		console.dir(bolded2);
+	</script>
+</body>
+</html>
